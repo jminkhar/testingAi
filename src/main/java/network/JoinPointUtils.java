@@ -3,9 +3,7 @@ package network;
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 public class JoinPointUtils {
     public static int computeJoinPoint(int s1, int s2) {
@@ -39,7 +37,7 @@ public class JoinPointUtils {
     }
 
     /* Ignore and do not change the code below */
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int s1 = in.nextInt();
         int s2 = in.nextInt();

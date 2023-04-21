@@ -8,11 +8,11 @@ public class Pi {
         //loop through the points
         //calculate the sum of the square of the points
         int countInside = 0;
-        for(int i = 0; i < pts.length; i++){
-            double x = pts[i][0];
-            double y = pts[i][1];
+        for (double[] pt : pts) {
+            double x = pt[0];
+            double y = pt[1];
             double sum = Math.pow(x, 2) + Math.pow(y, 2);
-            if(sum <= 1){
+            if (sum <= 1) {
                 countInside++;
             }
         }

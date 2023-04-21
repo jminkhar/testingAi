@@ -1,7 +1,5 @@
 package maths;
 
-import java.util.Arrays;
-import java.util.OptionalInt;
 
 public class Operations {
 
